@@ -12,7 +12,15 @@
 -   first citizen function
 -   function closure
 
+-   methods!!!
+-   methods and pointer (with indirection)
+
+-   interface (implicit and null)
+    -   interface (with nil underlying value)
+    -   empty interface interface{}
+
 ---
 
 -   slices are like references to an array
 -   has nil
+-   no syntax for type implements interface
