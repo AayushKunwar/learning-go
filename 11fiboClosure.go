@@ -14,6 +14,7 @@ func fibonacci() func() int {
 }
 
 func main() {
+	const foo = 69
 	f := fibonacci()
 	for i := 0; i < 10; i++ {
 		fmt.Println(f())

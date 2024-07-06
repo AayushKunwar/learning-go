@@ -11,10 +11,36 @@ function fibo() {
 }
 
 function main() {
-	let f = fibo();
+	try {
+		const f = fibo();
+		console.log(f);
+	} catch {
+		console.log("on no error");
+	}
 	for (let i = 0; i < 10; i++) {
 		console.log(f());
 	}
 }
 
 main();
+let bar = new Foo();
+const asdf = 69;
+
+class Foo {
+	print = function () {
+		console.log(this.value);
+	};
+}
+
+{
+	{
+		{
+			{
+				{
+					{
+					}
+				}
+			}
+		}
+	}
+}
